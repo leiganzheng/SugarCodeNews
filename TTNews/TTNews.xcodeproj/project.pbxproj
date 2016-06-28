@@ -21,6 +21,11 @@
 		1973FAF01D17CA6800043C27 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1973FAEF1D17CA6800043C27 /* HttpTool.m */; };
 		1973FAF31D17CC5C00043C27 /* CategorieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1973FAF21D17CC5C00043C27 /* CategorieModel.m */; };
 		2A86B2611ED99D23D16E1B99 /* libPods-TTNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17466C6DE13B98929644E3 /* libPods-TTNewsTests.a */; };
+		BB3A8B811D225DB300682ED7 /* HTMLFormatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3A8B801D225DB300682ED7 /* HTMLFormatConverter.m */; };
+		BB3A8B841D225E1B00682ED7 /* QN_DefaultImg.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3A8B831D225E1B00682ED7 /* QN_DefaultImg.m */; };
+		BB3A8B871D225F7A00682ED7 /* SDImageCache+NSDataToDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3A8B861D225F7A00682ED7 /* SDImageCache+NSDataToDisk.m */; };
+		BB3A8B8A1D225FEF00682ED7 /* NewsDetailURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3A8B891D225FEF00682ED7 /* NewsDetailURLProtocol.m */; };
+		BB3A8B901D22624600682ED7 /* QNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3A8B8F1D22624600682ED7 /* QNTools.m */; };
 		EE3A071E1CDA1DAD0024C37A /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A071D1CDA1DAD0024C37A /* ContentTableViewController.m */; };
 		EE4635C81CC72B8900DB248F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4635C71CC72B8900DB248F /* main.m */; };
 		EE4635D31CC72B8900DB248F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4635D21CC72B8900DB248F /* Assets.xcassets */; };
@@ -139,6 +144,17 @@
 		5F9E4A2D4EA0A37035F76280 /* libPods-TTNewsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTNewsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF9BEEE4A224DE03C7BCDD6 /* Pods-TTNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTNewsUITests/Pods-TTNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8200A708E68CDE22C29BF95 /* Pods-TTNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTNews/Pods-TTNews.debug.xcconfig"; sourceTree = "<group>"; };
+		BB3A8B7F1D225DB300682ED7 /* HTMLFormatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLFormatConverter.h; sourceTree = "<group>"; };
+		BB3A8B801D225DB300682ED7 /* HTMLFormatConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLFormatConverter.m; sourceTree = "<group>"; };
+		BB3A8B821D225E1B00682ED7 /* QN_DefaultImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QN_DefaultImg.h; path = ../Controller/QN_DefaultImg.h; sourceTree = "<group>"; };
+		BB3A8B831D225E1B00682ED7 /* QN_DefaultImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QN_DefaultImg.m; path = ../Controller/QN_DefaultImg.m; sourceTree = "<group>"; };
+		BB3A8B851D225F7A00682ED7 /* SDImageCache+NSDataToDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDImageCache+NSDataToDisk.h"; sourceTree = "<group>"; };
+		BB3A8B861D225F7A00682ED7 /* SDImageCache+NSDataToDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDImageCache+NSDataToDisk.m"; sourceTree = "<group>"; };
+		BB3A8B881D225FEF00682ED7 /* NewsDetailURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsDetailURLProtocol.h; path = ../Controller/NewsDetailURLProtocol.h; sourceTree = "<group>"; };
+		BB3A8B891D225FEF00682ED7 /* NewsDetailURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsDetailURLProtocol.m; path = ../Controller/NewsDetailURLProtocol.m; sourceTree = "<group>"; };
+		BB3A8B8E1D22624600682ED7 /* QNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNTools.h; sourceTree = "<group>"; };
+		BB3A8B8F1D22624600682ED7 /* QNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNTools.m; sourceTree = "<group>"; };
+		BB3A8B911D22631200682ED7 /* CyToolDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyToolDefine.h; sourceTree = "<group>"; };
 		D57D6934D3B8A15C6F7A5E03 /* Pods-TTNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTNewsUITests/Pods-TTNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E61D582CBD33E96626C3C2A2 /* Pods-TTNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTNews/Pods-TTNews.release.xcconfig"; sourceTree = "<group>"; };
 		EE3A071D1CDA1DAD0024C37A /* ContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
@@ -325,6 +341,8 @@
 		1973FAED1D17CA6800043C27 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				BB3A8B8E1D22624600682ED7 /* QNTools.h */,
+				BB3A8B8F1D22624600682ED7 /* QNTools.m */,
 				1973FAEE1D17CA6800043C27 /* HttpTool.h */,
 				1973FAEF1D17CA6800043C27 /* HttpTool.m */,
 			);
@@ -472,6 +490,9 @@
 		EE79B09C1CC8C435001029EF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BB3A8B911D22631200682ED7 /* CyToolDefine.h */,
+				BB3A8B7F1D225DB300682ED7 /* HTMLFormatConverter.h */,
+				BB3A8B801D225DB300682ED7 /* HTMLFormatConverter.m */,
 				EE79B0A11CC8C435001029EF /* NewsViewController.h */,
 				EE79B0A21CC8C435001029EF /* NewsViewController.m */,
 				EE79B09D1CC8C435001029EF /* ContentTableViewController.h */,
@@ -487,6 +508,10 @@
 		EE79B0A51CC8C435001029EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB3A8B821D225E1B00682ED7 /* QN_DefaultImg.h */,
+				BB3A8B831D225E1B00682ED7 /* QN_DefaultImg.m */,
+				BB3A8B881D225FEF00682ED7 /* NewsDetailURLProtocol.h */,
+				BB3A8B891D225FEF00682ED7 /* NewsDetailURLProtocol.m */,
 				EE79B0A61CC8C435001029EF /* TTHeaderNews.h */,
 				EE79B0A71CC8C435001029EF /* TTHeaderNews.m */,
 				EE79B0A81CC8C435001029EF /* TTNormalNews.h */,
@@ -525,6 +550,8 @@
 		EE79B0B81CC8C435001029EF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BB3A8B851D225F7A00682ED7 /* SDImageCache+NSDataToDisk.h */,
+				BB3A8B861D225F7A00682ED7 /* SDImageCache+NSDataToDisk.m */,
 				EE79B0B91CC8C435001029EF /* Foundation+Log.m */,
 				EE79B0BA1CC8C435001029EF /* NSDate+Extension.h */,
 				EE79B0BB1CC8C435001029EF /* NSDate+Extension.m */,
@@ -1025,6 +1052,7 @@
 				EE79B1411CC8C435001029EF /* TTVideo.m in Sources */,
 				EE79B1491CC8C435001029EF /* VideoTableViewCell.m in Sources */,
 				EE79B13E1CC8C435001029EF /* VideoCommentViewController.m in Sources */,
+				BB3A8B841D225E1B00682ED7 /* QN_DefaultImg.m in Sources */,
 				EE79B1361CC8C435001029EF /* TTPictureComment.m in Sources */,
 				EE79B11A1CC8C435001029EF /* ChannelCollectionViewCell.m in Sources */,
 				1973FAE41D17CA4200043C27 /* Easy_Runtime.mm in Sources */,
@@ -1047,9 +1075,11 @@
 				EE3A071E1CDA1DAD0024C37A /* ContentTableViewController.m in Sources */,
 				EE79B1251CC8C435001029EF /* UIImage+Extension.m in Sources */,
 				EE79B11E1CC8C435001029EF /* NoPictureNewsTableViewCell.m in Sources */,
+				BB3A8B8A1D225FEF00682ED7 /* NewsDetailURLProtocol.m in Sources */,
 				EE79B1471CC8C435001029EF /* VideoCommentCell.m in Sources */,
 				EE79B1291CC8C435001029EF /* TTDataTool.m in Sources */,
 				EE79B1201CC8C435001029EF /* SinglePictureNewsTableViewCell.m in Sources */,
+				BB3A8B871D225F7A00682ED7 /* SDImageCache+NSDataToDisk.m in Sources */,
 				EE79B1191CC8C435001029EF /* TTNormalNews.m in Sources */,
 				EE79B1401CC8C435001029EF /* VideoViewController.m in Sources */,
 				1973FAEA1D17CA4200043C27 /* NSObject+EasyTypeConversion.mm in Sources */,
@@ -1060,12 +1090,14 @@
 				EE79B1261CC8C435001029EF /* UIImageView+Extension.m in Sources */,
 				EE79B1441CC8C435001029EF /* FullViewController.m in Sources */,
 				1973FAE71D17CA4200043C27 /* NSDictionary+EasyExtend.mm in Sources */,
+				BB3A8B811D225DB300682ED7 /* HTMLFormatConverter.m in Sources */,
 				EE79B1431CC8C435001029EF /* TTVideoUser.m in Sources */,
 				EE79B1121CC8C435001029EF /* MeTableViewController.m in Sources */,
 				EE79B1421CC8C435001029EF /* TTVideoComment.m in Sources */,
 				EEB32A4B1CD38CAF00FF0AB8 /* TTTopChannelContianerView.m in Sources */,
 				EE79B1451CC8C435001029EF /* VideoPlayView.m in Sources */,
 				1973FAEC1D17CA4200043C27 /* pinyin.m in Sources */,
+				BB3A8B901D22624600682ED7 /* QNTools.m in Sources */,
 				1973FAF01D17CA6800043C27 /* HttpTool.m in Sources */,
 				EE79B12B1CC8C435001029EF /* TTPictureFetchDataParameter.m in Sources */,
 				1973FAE91D17CA4200043C27 /* NSObject+EasyProperty.mm in Sources */,
