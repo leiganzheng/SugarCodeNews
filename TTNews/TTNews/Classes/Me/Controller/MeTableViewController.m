@@ -37,7 +37,7 @@ CGFloat const footViewHeight = 30;
     [super viewDidLoad];
     [self caculateCacheSize];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.navigationController.navigationBar.frame) + 30, 0, 0, 0);
+    self.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.navigationController.navigationBar.frame), 0, 0, 0);
 }
 
 -(void)viewWillAppear:(BOOL)animated {

@@ -260,7 +260,7 @@ static NSString * const noPictureCell = @"NoPictureCell";
 
     SinglePictureNewsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:singlePictureCell];
     cell.contentTittle = news.post_title;
-    cell.desc = [news.post_content stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+//    cell.desc = [news.post_content stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     cell.imageUrl = news.img_url;
 
 //    NSDictionary *dict = news.imageurls.firstObject;

@@ -59,7 +59,7 @@ static NSString * const collectionViewSectionHeaderID = @"ChannelCollectionHeade
 -(void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    [[SDImageCache sharedImageCache] clearDisk];
+//    [[SDImageCache sharedImageCache] clearDisk];
 }
 
 #pragma mark --private Method--初始化子控制器
@@ -76,16 +76,16 @@ static NSString * const collectionViewSectionHeaderID = @"ChannelCollectionHeade
 - (void)setupTopContianerView{
     [[self.view viewWithTag:1199] removeFromSuperview];
     CGFloat top = CGRectGetMaxY(self.navigationController.navigationBar.frame);
-    TTTopChannelContianerView *topContianerView = [[TTTopChannelContianerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 30)];
+    TTTopChannelContianerView *topContianerView = [[TTTopChannelContianerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 44)];
     topContianerView.tag = 1199;
     topContianerView.channelNameArray = self.currentChannelsArray;
     topContianerView.delegate = self;
     self.topContianerView  = topContianerView;
     self.topContianerView.scrollView.delegate = self;
-//    self.navigationItem.titleView=topContianerView;
+    self.navigationItem.titleView=topContianerView;
     
-    [self.view addSubview:topContianerView];
-    [self.view bringSubviewToFront:self.topContianerView ];
+//    [self.view addSubview:topContianerView];
+//    [self.view bringSubviewToFront:self.topContianerView ];
 }
 
 #pragma mark --private Method--初始化相信新闻内容的scrollView
@@ -104,7 +104,7 @@ static NSString * const collectionViewSectionHeaderID = @"ChannelCollectionHeade
 -(void)setupCollectionView {
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    flowLayout.headerReferenceSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 35);//头部
+    flowLayout.headerReferenceSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 0);//头部
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, 0, 0) collectionViewLayout:flowLayout];
     self.collectionView = collectionView;
     collectionView.backgroundColor = [UIColor whiteColor];
@@ -122,7 +122,7 @@ static NSString * const collectionViewSectionHeaderID = @"ChannelCollectionHeade
         NSInteger index = scrollView.contentOffset.x/self.contentScrollView.frame.size.width;
         ContentTableViewController *vc = self.childViewControllers[index];
         vc.view.frame = CGRectMake(scrollView.contentOffset.x, 0, self.contentScrollView.frame.size.width, self.contentScrollView.frame.size.height);
-        vc.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.navigationController.navigationBar.frame)+self.topContianerView.scrollView.frame.size.height, 0, self.tabBarController.tabBar.frame.size.height, 0);
+        vc.tableView.contentInset = UIEdgeInsetsMake(CGRectGetMaxY(self.navigationController.navigationBar.frame), 0, self.tabBarController.tabBar.frame.size.height, 0);
             [scrollView addSubview:vc.view];
     }
 }

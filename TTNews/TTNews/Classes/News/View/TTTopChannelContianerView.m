@@ -111,7 +111,7 @@ static CGFloat buttonWidth = 65;
 #pragma mark 创建ChannelButton
 - (UIButton *)createChannelButton{
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [button setTitleColor:[UIColor colorWithRed:243/255.0 green:75/255.0 blue:80/255.0 alpha:1.0] forState:UIControlStateDisabled];
     [button.titleLabel setFont:[UIFont systemFontOfSize:kTitleLabelNorimalFont]];
     [button addTarget:self action:@selector(clickChannelButton:) forControlEvents:UIControlEventTouchUpInside];
