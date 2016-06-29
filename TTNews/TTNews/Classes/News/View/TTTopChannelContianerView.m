@@ -17,7 +17,7 @@
 
 static CGFloat kTitleLabelNorimalFont = 18;
 static CGFloat kTitleLabelSelectedFont = 16;
-static CGFloat kAddChannelWidth = 30;
+static CGFloat kAddChannelWidth = 44;
 static CGFloat kSliderViewWidth = 20;
 static CGFloat buttonWidth = 65;
 

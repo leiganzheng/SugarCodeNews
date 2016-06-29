@@ -139,6 +139,7 @@
     [SVProgressHUD dismiss];
     self.backItem.enabled = webView.canGoBack;
     self.forwardItem.enabled = webView.canGoForward;
+    
 }
 
 #pragma mark -UIWebViewDelegate-加载Webview失败

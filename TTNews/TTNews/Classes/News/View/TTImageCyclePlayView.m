@@ -48,6 +48,7 @@
     //初始化scrollView上的左中右三张imageView,
     for (NSInteger i = 0; i < 3; i++) {
         UIImageView *imageView = [[UIImageView alloc] init];
+        imageView.contentMode = UIViewContentModeScaleAspectFill;
         imageView.frame = CGRectMake(i*scrollView.frame.size.width, 0, scrollView.frame.size.width, scrollView.frame.size.height);
         [scrollView addSubview:imageView];
         if (i==0) {
