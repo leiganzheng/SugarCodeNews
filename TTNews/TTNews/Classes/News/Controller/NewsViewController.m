@@ -291,7 +291,7 @@ static NSString * const collectionViewSectionHeaderID = @"ChannelCollectionHeade
 -(void)shouldShowChannelsEditCollectionView:(BOOL)value {
     CGFloat kDeviceWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat kDeviceHeight = [UIScreen mainScreen].bounds.size.height;
-    CGFloat top = CGRectGetMaxY(self.navigationController.navigationBar.frame) + self.topContianerView.scrollView.frame.size.height;
+    CGFloat top = CGRectGetMaxY(self.navigationController.navigationBar.frame) ;
     POPSpringAnimation *animation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
     animation.springBounciness = 5;
     animation.springSpeed = 5;

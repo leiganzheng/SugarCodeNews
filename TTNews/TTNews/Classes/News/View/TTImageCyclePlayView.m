@@ -154,7 +154,7 @@
 
 #pragma mark scrollView轮播到下一个ImageView
 - (void)nextNews {
-    [UIView animateWithDuration:0.5 animations:^{
+    [UIView animateWithDuration:0.8 animations:^{
         [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x+[UIScreen mainScreen].bounds.size.width, 0)];
     }];
     [self scrollViewDidEndDecelerating:self.scrollView];
